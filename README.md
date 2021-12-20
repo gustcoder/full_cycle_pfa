@@ -1,7 +1,7 @@
-Repositório para armazenar atividades e desafios relacionados ao curso "Imersão FullCycle"
+# Repositório para armazenar atividades e desafios relacionados ao curso "Imersão FullCycle"
 
-# Desafio 1
-## Ao baixar os arquivos, por gentileza executar:
+## Desafio 1
+### Ao baixar os arquivos, por gentileza executar:
 
 ```
 1. cd desafio-1
