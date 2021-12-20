@@ -12,6 +12,6 @@ echo "========== Módulos FullCycle ===========\n";
 echo "========================================\n";
 
 // @todo conectar no mySQL e pegar modulos
-foreach ($fullCycleModulesMock as $module) {
-    echo $module . "\n";
+foreach ($fullCycleModulesMock as $key => $module) {
+    echo $key . ':' . $module . "\n";
 }
