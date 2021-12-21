@@ -30,7 +30,7 @@ echo "========================================\n";
 
 if ($result = $conn->query($sqlGetFullCycleModules)) {
     while($module = $result->fetch_object()){
-        echo $module->id . ': ' . $module->name . "\n";
+        echo $module->id . ': ' . utf8_encode($module->name) . "\n";
     }
 }
 $result->close();
