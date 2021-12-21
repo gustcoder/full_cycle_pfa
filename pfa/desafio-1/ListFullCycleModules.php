@@ -1,19 +1,19 @@
 <?php
 
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$database = "FullCycle";
-$port = 3307;
+// $servername = "127.0.0.1";
+// $username = "root";
+// $password = "";
+// $database = "FullCycle";
+// $port = 3307;
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $database, $port);
+// // Create connection
+// $conn = mysqli_connect($servername, $username, $password, $database, $port);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+// echo "Connected successfully";
 
 $fullCycleModulesMock = [
     '1' => 'PFA',
