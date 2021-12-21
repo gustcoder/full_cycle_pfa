@@ -1,5 +1,10 @@
 CREATE DATABASE FullCycle;
 
+CREATE USER 'fullcycle'@'localhost' IDENTIFIED BY 'fullcycle';
+GRANT ALL PRIVILEGES ON *.* TO 'fullcycle'@'localhost' WITH GRANT OPTION;
+CREATE USER 'fullcycle'@'%' IDENTIFIED BY 'fullcycle';
+GRANT ALL PRIVILEGES ON *.* TO 'fullcycle'@'%' WITH GRANT OPTION;
+
 USE FullCycle;
 
 CREATE TABLE modules (
