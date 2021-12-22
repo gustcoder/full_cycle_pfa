@@ -9,3 +9,7 @@
 ```
 sh desafio-1.sh
 ```
+
+#### 3. Acessar http://localhost:8080 (Nginx fará o redirecionamento para o container do PHP, exibindo o resultado)
+
+#### 4. Após acessar, pressionar Ctrl + C para encerrar os processos dos containers
