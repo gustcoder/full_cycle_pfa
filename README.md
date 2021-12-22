@@ -1,6 +1,6 @@
 # Repositório para armazenar atividades e desafios relacionados ao curso "Imersão FullCycle"
 
-## Desafio 1
+## Desafio 1 - FullCycle 2.0 (Bônus)
 Crie um programa utilizando sua linguagem de programação favorita que faça uma listagem simples do nome de alguns módulos do curso Full Cycle os trazendo de um banco de dados MySQL. Gere a imagem desse container e a publique no DockerHub.
 
 Gere uma imagem do nginx que seja capaz que receber as solicitações http e encaminhá-las para o container.
