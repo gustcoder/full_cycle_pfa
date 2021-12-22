@@ -6,7 +6,7 @@ $password = "fullcycle";
 $database = "FullCycle";
 $port = 3306;
 
-// Create connection
+//Create connection
 $conn = new mysqli($servername, $username, $password, $database, $port);
 
 // Check connection
@@ -24,13 +24,15 @@ $sqlGetFullCycleModules = '
         id;
 ';
 
-echo "========================================\n";
-echo "========== Módulos FullCycle ===========\n";
-echo "========================================\n";
+echo "========================================";
+echo "========== Módulos FullCycle ===========";
+echo "========================================";
+
+echo "<br>";
 
 if ($result = $conn->query($sqlGetFullCycleModules)) {
     while($module = $result->fetch_object()){
-        echo $module->id . ': ' . utf8_encode($module->name) . "\n";
+        echo $module->id . ': ' . utf8_encode($module->name) . "<br>";
     }
 }
 $result->close();
